@@ -15,7 +15,7 @@ import JournalViewComponent from "./components/views/journal/Journal.vue";
 // createApp(App).mount("#app");
 
 const router = createRouter({
-	history: createWebHistory(),
+	history: createWebHistory("/arcade-mayhem/"),
 	routes:[
 		{ path: '/', component: CharactersViewComponent},
 		{ path: '/about', component: CharactersViewComponent},
