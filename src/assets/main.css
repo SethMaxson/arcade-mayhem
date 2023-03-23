@@ -1,5 +1,19 @@
 @import './base.css';
 
+/* color variables for this campaign-setting-specific project */
+:root {
+  --am-color-snes-purple-dark: #514689;
+  --am-color-snes-purple-light: #a7a4e0;
+  --am-color-snes-blue: #00387b;
+  --am-color-snes-green: #007243;
+  --am-color-snes-red: #c1121c;
+  --am-color-snes-yellow: #f7ba0b;
+  --am-color-snes-gray-body: #b2b4b2;
+  --am-color-snes-gray-dpad: #54585a;
+  --am-color-snes-gray-button-zone: #707372;
+  --am-color-near-black: #393c3d;
+}
+
 /* #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -54,4 +68,25 @@ a,
 
 .navbar {
   background: var(--am-color-snes-purple-dark);
+}
+
+.tips {
+  background: var(--am-color-snes-purple-light);
+  color: var(--am-color-near-black);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 0.3rem solid var(--am-color-snes-purple-dark);
+}
+
+.tips::before {
+  text-decoration: underline;
+  /* font-weight: bold; */
+  font-variant: small-caps;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.25rem;
+  content: 'Pro Tips with the Fitz:';
+  margin-right: 0.25rem;
+  /* float: left; */
 }

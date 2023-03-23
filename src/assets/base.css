@@ -59,19 +59,6 @@
   font-weight: normal;
 } */
 
-/* color variables for this campaign-setting-specific project */
-:root {
-  --am-color-snes-purple-dark: #514689;
-  --am-color-snes-purple-light: #a7a4e0;
-  --am-color-snes-blue: #00387b;
-  --am-color-snes-green: #007243;
-  --am-color-snes-red: #c1121c;
-  --am-color-snes-yellow: #f7ba0b;
-  --am-color-snes-gray-body: #b2b4b2;
-  --am-color-snes-gray-dpad: #54585a;
-  --am-color-snes-gray-button-zone: #707372;
-}
-
 body {
   min-height: 100vh;
   color: var(--color-text);

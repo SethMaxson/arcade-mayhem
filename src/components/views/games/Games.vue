@@ -29,7 +29,7 @@ import ViewBlurb from "@/components/core/ViewBlurb.vue";
 			<li class="list-group-item">Pong</li>
 			<li class="list-group-item">SegaSonic the Hedgehog</li>
 			<li class="list-group-item">The Simpsons</li>
-			<li class="list-group-item">Sonic the Fighters <span class="badge text-bg-warning">Temporarily Out of Service</span></li>
+			<li class="list-group-item disabled">Sonic the Fighters <span class="badge text-bg-warning">Temporarily Out of Service</span></li>
 			<li class="list-group-item">Street Fighter II Turbo</li>
 			<li class="list-group-item">Soulcalibur II</li>
 			<li class="list-group-item">Teenage Mutant Ninja Turtles</li>

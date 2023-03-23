@@ -28,6 +28,9 @@ defineProps<{
 					<li class="nav-item">
 						<router-link class="nav-link" to="/games"> Games </router-link>
 					</li>
+					<li class="nav-item">
+						<router-link class="nav-link" to="/rules"> Rules </router-link>
+					</li>
 					<!-- <li class="nav-item">
 						<router-link class="nav-link" to="/journal"> Journal </router-link>
 					</li> -->
