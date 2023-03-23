@@ -2,7 +2,6 @@
 import CharacterCard from '@/components/views/characters/components/CharacterCard.vue';
 import CharacterCardDeck from '@/components/core/CardDeck.vue';
 import Portrait from '@/components/core/Portrait.vue';
-import WikiLink from '@/components/core/WikiLink.vue';
 </script>
 
 <template>
