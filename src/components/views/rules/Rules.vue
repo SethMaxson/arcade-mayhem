@@ -11,7 +11,7 @@ import ViewBlurb from "@/components/core/ViewBlurb.vue";
 	<main class="px-2">
 		<div>
 			<h3>Stats</h3>
-			<p>Each of the five stats measure how talented or untalented a character is at certain things.</p>
+			<p>Each of the five stats measures how talented or untalented a character is at certain things.</p>
 			
 			<ul class="list-group" style="list-style-type:disc;">
 				<li class="list-group-item">

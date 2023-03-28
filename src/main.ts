@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import {createRouter, createWebHistory} from 'vue-router'
+import {createRouter, createWebHashHistory, createWebHistory} from 'vue-router'
 
 import App from "./App.vue";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,7 +16,7 @@ import RulesViewComponent from "./components/views/rules/Rules.vue";
 // createApp(App).mount("#app");
 
 const router = createRouter({
-	history: createWebHistory("/arcade-mayhem/"),
+	history: createWebHashHistory("/arcade-mayhem/"),
 	routes:[
 		{ path: '/', component: CharacterSelectViewComponent},
 		{ path: '/about', component: CharacterSelectViewComponent},
