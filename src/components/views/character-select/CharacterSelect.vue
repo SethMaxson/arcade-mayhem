@@ -85,9 +85,3 @@ import CharacterCard from './components/CharacterCard.vue';
 		</div>
 	</main>
 </template>
-
-<style scoped>
-	.pix {
-		image-rendering: pixelated;
-	}
-</style>

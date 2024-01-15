@@ -2,16 +2,16 @@
 
 /* color variables for this campaign-setting-specific project */
 :root {
-  --am-color-snes-purple-dark: #514689;
-  --am-color-snes-purple-light: #a7a4e0;
-  --am-color-snes-blue: #00387b;
-  --am-color-snes-green: #007243;
-  --am-color-snes-red: #c1121c;
-  --am-color-snes-yellow: #f7ba0b;
-  --am-color-snes-gray-body: #b2b4b2;
-  --am-color-snes-gray-dpad: #54585a;
-  --am-color-snes-gray-button-zone: #707372;
-  --am-color-near-black: #393c3d;
+	--am-color-snes-purple-dark: #514689;
+	--am-color-snes-purple-light: #a7a4e0;
+	--am-color-snes-blue: #00387b;
+	--am-color-snes-green: #007243;
+	--am-color-snes-red: #c1121c;
+	--am-color-snes-yellow: #f7ba0b;
+	--am-color-snes-gray-body: #b2b4b2;
+	--am-color-snes-gray-dpad: #54585a;
+	--am-color-snes-gray-button-zone: #707372;
+	--am-color-near-black: #393c3d;
 }
 
 /* #app {
@@ -24,20 +24,20 @@
 
 a,
 .green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+	text-decoration: none;
+	color: hsla(160, 100%, 37%, 1);
+	transition: 0.4s;
 }
 
 @media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+	a:hover {
+		background-color: hsla(160, 100%, 37%, 0.2);
+	}
 }
 
-#app > .navbar {
-  position: relative;
-  z-index: 6;
+#app>.navbar {
+	position: relative;
+	z-index: 6;
 }
 
 #app {
@@ -48,7 +48,7 @@ a,
 	align-items: stretch;
 }
 
-#app > .container {
+#app>.container {
 	overflow: auto;
 	flex: 2 2 80%;
 }
@@ -67,26 +67,32 @@ a,
 } */
 
 .navbar {
-  background: var(--am-color-snes-purple-dark);
+	background: var(--am-color-snes-purple-dark);
+}
+
+.pix {
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: crisp-edges;
 }
 
 .tips {
-  background: var(--am-color-snes-purple-light);
-  color: var(--am-color-near-black);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  border: 0.3rem solid var(--am-color-snes-purple-dark);
+	background: var(--am-color-snes-purple-light);
+	color: var(--am-color-near-black);
+	padding: 1rem;
+	border-radius: 0.5rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	border: 0.3rem solid var(--am-color-snes-purple-dark);
 }
 
 .tips::before {
-  text-decoration: underline;
-  /* font-weight: bold; */
-  font-variant: small-caps;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 1.25rem;
-  content: 'Pro Tips with the Fitz:';
-  margin-right: 0.25rem;
-  /* float: left; */
+	text-decoration: underline;
+	/* font-weight: bold; */
+	font-variant: small-caps;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.25rem;
+	content: 'Pro Tips with the Fitz:';
+	margin-right: 0.25rem;
+	/* float: left; */
 }
